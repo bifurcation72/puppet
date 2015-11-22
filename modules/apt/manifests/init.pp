@@ -2,7 +2,7 @@ class apt {
 
   file { '/etc/apt/sources.list' :
     # source => 'puppet:///modules/apt/files/sources.list',
-    source => '/home/chris/puppet/modules/apt/files/sources.list',
+    source => '/home/ubuntu/puppet/modules/apt/files/sources.list',
   }
 
   exec { 'update' :
